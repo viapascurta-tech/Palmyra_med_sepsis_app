@@ -6,9 +6,9 @@ from llama_index.core import VectorStoreIndex
 from llama_index.vector_stores.chroma import ChromaVectorStore
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
-os.environ["NVIDIA_API_KEY"] = "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"
-os.environ["NVIDIA_MODEL_NAME"] = "writer/palmyra-med-70b"
-os.environ["NVIDIA_BASE_URL"] = "https://integrate.api.nvidia.com/v1"
+# os.environ["NVIDIA_API_KEY"] = "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"
+# os.environ["NVIDIA_MODEL_NAME"] = "writer/palmyra-med-70b"
+# os.environ["NVIDIA_BASE_URL"] = "https://integrate.api.nvidia.com/v1"
 
 #openai.api_key = os.environ["OPENAI_API_KEY"]
 embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-base-en-v1.5")
