@@ -1,3 +1,4 @@
+![PyPI - Version](https://img.shields.io/badge/Pyhton-v3.11.10-blue)
 # Palmyra_med_sepsis_app
  This is the repository for a research project concerning building LLM-RAG-based apps
 ## Overview
