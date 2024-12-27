@@ -25,4 +25,4 @@ The application is built using [Shiny for Python package](https://shiny.posit.co
 
 ### Availability
 To experiment with the application, you can build the application on your machine (the code is available in *app.py*) or by accessing the cloud version of it (this version uses GPT-3.5-turbo as an inference engine) at https://huggingface.co/spaces/viapascurta/N_S_P_med. 
-By activating the **How to Use the Application** button on the upper horizontal menu, the user gets detailed instructions on how to use the application.
+By activating the **How to Use the Application** button on the upper horizontal menu, the user gets instructions on how to use the application.
