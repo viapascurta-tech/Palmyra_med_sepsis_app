@@ -16,6 +16,8 @@ The application requires input of information about a particular sepsis case as 
 * *literature-based recommendations* concerning case management,
 * *antibiotic recommendations*
 * a *statement concerning the compliance of the generated recommendations with current sepsis guidelines*.
+The user interface:
+
 ![GUI](https://github.com/user-attachments/assets/985f9ec4-6ef4-4909-aa2b-c45e51bfc8fd)
 
 ### Availability
