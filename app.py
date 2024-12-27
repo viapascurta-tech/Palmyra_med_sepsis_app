@@ -84,8 +84,12 @@ app_ui = ui.page_fluid(
                ui.panel_main(
                    ui.markdown("""
                    ### How to Use the Application
-                   1. Enter text in the input fields.
+                   1. Enter text in the input fields. The "Special comments" field requires information about potential site of infection:
+                   Pulmonary Infections (e.g., Community-Acquired Pneumonia (CAP) or Hospital-Acquired Pneumonia/Ventilator-Associated Pneumonia (HAP/VAP));
+                   Central Nervous System Infections; Skin and Soft Tissue Infections (e.g., Necrotizing Fasciitis, Nonpurulent Cellulitis/Erysipelas, Purulent Infection);
+                   Intra-Abdominal Infection; Genitourinary Infections. etc.
                    2. Click on 'Submit' to join and display the input text.
+                   3. Short response radio-button can be used in case of time constrains in a clinical setting.
                    3. Use the additional buttons to see different transformations of the joined text.
                    4. Click 'Reset' to clear all input fields.
                    """)
