@@ -13,14 +13,16 @@
 The repository contains files with persisting ChromaDB vector stores used for the functioning of a RAG-based software application that uses elements of a [multi-agentic approach](https://www.crewai.com/).
 ## The software applications for decision-making at an early stage of sepsis
 The application requires input of information about a particular sepsis case as a clinical vignette. By pressing respective buttons on the application GUI, the user will get 
-* *literature-based recommendations* concerning case management,
+* *literature-based recommendations* concerning the management of a particular sepsis case at an early stage (e.g., before culture results are available)
 * *antibiotic recommendations*
-* a *statement concerning the compliance of the generated recommendations with current sepsis guidelines*.
+* a *statement concerning the compliance of the generated recommendations with current sepsis guidelines*
 
-Below is the image of the user interface of a software application :
+Below is the image of the user interface of the application :
 
 ![GUI](https://github.com/user-attachments/assets/985f9ec4-6ef4-4909-aa2b-c45e51bfc8fd)
 
+The application is built using [Shiny for Python package](https://shiny.posit.co/py/), and the inference engine is [Palmyra-med 70B LLM](https://writer.com/blog/palmyra-med-fin-models/) hosted on [NVIDIA platform](https://build.nvidia.com/explore/discover).
+
 ### Availability
-For experimenting with the application can be accessed at https://huggingface.co/spaces/viapascurta/N_S_P_med. 
+To experiment with the application, you can build the application on your machine or by accessing the cloud version of it (this version uses GPT-3.5-turbo as an inference engine) at https://huggingface.co/spaces/viapascurta/N_S_P_med. 
 By activating the **How to Use the Application** button on the upper horizontal menu, the user gets detailed instructions on how to use the application.
