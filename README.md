@@ -10,7 +10,7 @@
 # Palmyra_med_sepsis_app
  This is the repository for a research project concerning building LLM-RAG-based applications.
 ## Overview
-The repository contains files with persisting ChromaDB vector stores used for the functioning of a RAG-based software application that uses elements of a [multi-agentic approach](https://www.crewai.com/).
+The repository contains files with persisting ChromaDB vector stores used for the functioning of a RAG-based software application that uses elements of a [multi-agentic approach](https://arxiv.org/pdf/2311.10537).
 ## The software applications for decision-making at an early stage of sepsis
 The application requires input of information about a particular sepsis case as a clinical vignette. By pressing respective buttons on the application GUI, the user will get 
 * *literature-based recommendations* concerning the management of a particular sepsis case at an early stage (e.g., before culture results are available)
