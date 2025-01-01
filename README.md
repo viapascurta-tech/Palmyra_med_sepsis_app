@@ -24,5 +24,5 @@ The appearence of the user interface of the application 👇:
 The application is built using [Shiny for Python package](https://shiny.posit.co/py/), and the inference engine is [Palmyra-med 70B LLM](https://writer.com/blog/palmyra-med-fin-models/) hosted on [NVIDIA platform](https://build.nvidia.com/explore/discover).
 
 ### Availability
-To experiment with the application, you can build the application on your machine (the code is available in *app.py*) or by accessing the cloud version of it (this version uses GPT-3.5-turbo as an inference engine) at https://huggingface.co/spaces/viapascurta/N_S_P_med. 
+To experiment with the application, you can build the application on your machine (the code is available in *app.py*) or by accessing the cloud version of it (this version uses GPT-3.5-turbo as an inference engine) on [huggingface](https://huggingface.co/spaces/LlmRAGbasedAPPs/LLM_MA_RAG_Sepsis) after sending a request to victor.iapascurta@usmf.md. 
 By activating the **How to Use the Application** button on the upper horizontal menu, the user gets instructions on how to use the application.
